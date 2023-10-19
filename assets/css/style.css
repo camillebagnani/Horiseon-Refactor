@@ -15,6 +15,7 @@ body {
     color: #ffffff;
 }
 
+/* the inline-block tag displays the header horizontally as a block container*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +25,7 @@ body {
     color: #d9dcd6;
 }
 
+/* the float: right property moves the nav bar to the right side of the page */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* the background-image in a .css file is merely a decorative element and not considered an image like in the HTML */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,22 +89,26 @@ p {
     background-color: #2589bd;
 }
 
+/* these classes are grouped with commas and have a margin under the element */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* these classes are grouped and have a margin under the element, and the h3 is centered */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*the block property displays each element on a new line and can take up up to 150px width */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px; 
 }
 
+/* the padding means that each side of the inside of the element's border will be 50px */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
