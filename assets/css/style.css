@@ -108,8 +108,19 @@ p {
     max-width: 150px; 
 }
 
-/* the padding means that each side of the inside of the element's border will be 50px */
+
+/* switched from listing different classes to naming all the sections as one class called 'service'
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} */
+
+/* the padding means that each side of the inside of the element's border will be 50px */
+.service {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -118,11 +129,11 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.service img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 } 
